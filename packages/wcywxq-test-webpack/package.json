@@ -1,0 +1,32 @@
+{
+  "name": "wcywxq-test-webpack",
+  "version": "1.0.0",
+  "description": "lerna 测试包1",
+  "keywords": [
+    "lerna"
+  ],
+  "author": "wcywxq <wcywxq@gmail.com>",
+  "homepage": "https://github.com/wcywxq/lerna-repo#readme",
+  "license": "ISC",
+  "main": "lib/wcywxq-test-webpack.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcywxq/lerna-repo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/wcywxq/lerna-repo/issues"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.0"
+  }
+}
